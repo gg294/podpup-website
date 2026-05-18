@@ -104,6 +104,23 @@ const pricePlans = [
 
     <main id="top">
       <section class="hero section-frame">
+        <picture class="hero-scene">
+          <source
+            type="image/webp"
+            srcset="/assets/hero-scene-960.webp 960w, /assets/hero-scene-1440.webp 1440w, /assets/hero-scene-1940.webp 1940w"
+            sizes="(max-width: 1120px) 100vw, 1120px"
+          />
+          <img
+            src="/assets/hero-scene.png"
+            alt=""
+            width="1940"
+            height="1040"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
+            aria-hidden="true"
+          />
+        </picture>
         <div class="hero-copy">
           <h1>Turn your back catalogue into a predictable revenue stream.</h1>
           <p>
