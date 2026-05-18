@@ -3,6 +3,10 @@ import '../styles/global.css';
 
 const appUrl = 'https://app.podpup.io';
 const linkedinUrl = 'https://www.linkedin.com/company/podpup/about/?viewAsMember=true';
+const siteUrl = 'https://www.podpup.io';
+const pageTitle = 'PodPup | Unlock Your Podcast Revenue';
+const pageDescription = 'PodPup turns your podcast back catalogue into a searchable answer engine that drives listeners, downloads, and revenue.';
+const ogImage = `${siteUrl}/og-image.png`;
 
 const pricePlans = [
   {
@@ -62,15 +66,28 @@ const pricePlans = [
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="canonical" href={siteUrl} />
     <meta name="viewport" content="width=device-width" />
-    <meta
-      name="description"
-      content="PodPup turns your podcast back catalogue into a searchable answer engine that drives listeners, downloads, and revenue."
-    />
+    <meta name="description" content={pageDescription} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="PodPup logo and headline for unlocking podcast back catalogue revenue." />
+    <meta property="og:site_name" content="PodPup" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="generator" content={Astro.generator} />
-    <title>PodPup | Unlock Your Podcast Revenue</title>
+    <title>{pageTitle}</title>
   </head>
   <body>
     <header class="site-header" aria-label="Primary navigation">
