@@ -1,0 +1,310 @@
+---
+import '../styles/global.css';
+
+const appUrl = 'https://app.podpup.io';
+const linkedinUrl = 'https://www.linkedin.com/company/podpup/about/?viewAsMember=true';
+
+const pricePlans = [
+  {
+    name: 'Starter',
+    audience: 'for hobby podcasts',
+    price: 'free',
+    accent: 'pink',
+    features: [
+      ['yes', '100 chatbot query credits'],
+      ['yes', '300 podcast import minutes'],
+      ['yes', '1 podcast'],
+      ['yes', '1 chatbot'],
+      ['yes', '5 max latest episodes synced'],
+      ['yes', '1 podcast per chatbot'],
+      ['no', 'No extra seats'],
+      ['no', 'Remove PodPup logo'],
+    ],
+  },
+  {
+    name: 'Creator',
+    audience: 'for scaling podcasts',
+    price: '$12',
+    suffix: 'per month',
+    accent: 'gold',
+    features: [
+      ['yes', '600 chatbot query credits'],
+      ['yes', '3,000 podcast import minutes'],
+      ['yes', '2 podcasts'],
+      ['yes', '2 chatbots'],
+      ['yes', '50 max latest episodes synced'],
+      ['yes', '2 podcast per chatbot'],
+      ['yes', '2 extra seats'],
+      ['yes', 'Remove PodPup logo'],
+    ],
+  },
+  {
+    name: 'Pro',
+    audience: 'for popular podcasts',
+    price: '$39',
+    suffix: 'per month',
+    accent: 'cyan',
+    badge: 'Best Value',
+    features: [
+      ['yes', '3,000 chatbot query credits'],
+      ['yes', '15,000 podcast import minutes'],
+      ['yes', '50 podcasts'],
+      ['yes', '50 chatbots'],
+      ['yes', 'Unlimited max latest episodes synced'],
+      ['yes', '10 podcast per chatbot'],
+      ['yes', '10 extra seats'],
+      ['yes', 'Remove PodPup logo'],
+    ],
+  },
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="PodPup turns your podcast back catalogue into a searchable answer engine that drives listeners, downloads, and revenue."
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>PodPup | Unlock Your Podcast Revenue</title>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="logo-link" href="#top" aria-label="PodPup home">
+        <img src="/assets/podpup-logo.png" alt="PodPup" />
+      </a>
+      <nav class="main-nav">
+        <a href="#how-it-works">How It Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href={appUrl}>Sign In</a>
+      </nav>
+      <a class="button button-gold header-cta" href="#pricing">Start FREE</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-frame">
+        <div class="hero-copy">
+          <h1>Turn your back catalogue into a predictable revenue stream.</h1>
+          <p>
+            Most podcast episodes lose up to 90% of their streams within 3 weeks.
+            PodPup indexes everything said across your catalogue, so listeners
+            find what they want. They listen more, more often, and across more of
+            your episodes - increasing total downloads and revenue.
+          </p>
+          <p>
+            For subscription models, it creates a premium experience where
+            listeners can interact with an AI version of the presenter, driving
+            higher conversion and retention.
+          </p>
+        </div>
+        <figure class="hero-engine-image">
+          <img
+            src="/assets/hero-answer-engine.png"
+            alt="PodPup answer engine chat preview with a listener using headphones and a laptop"
+          />
+        </figure>
+      </section>
+
+      <div class="hero-actions">
+        <a class="button button-cyan" href={appUrl}>Unlock Your Revenue</a>
+        <a class="button button-gold" href="#experience">Watch Demo</a>
+      </div>
+
+      <section class="comparison">
+        <article>
+          <h2 class="hot-pink">Lost Revenue</h2>
+          <p>Most of your catalogue never generates meaningful revenue.</p>
+          <p>
+            Listeners scroll recent episodes, miss relevant content, and leave -
+            meaning the majority of your episodes generate little to no ongoing
+            downloads or revenue.
+          </p>
+          <div class="comparison-panel">
+            <img
+              src="/assets/lost-revenue-panel.png"
+              alt="Podcast website episode list preview"
+            />
+          </div>
+        </article>
+
+        <article>
+          <h2 class="hot-cyan">Unlocked Revenue</h2>
+          <p>Listeners find what they want, and keep downloading.</p>
+          <p>
+            Instead of scrolling, they ask - finding exactly what they want and
+            continuing to explore more episodes, increasing total listens and
+            revenue across your catalogue.
+          </p>
+          <div class="comparison-panel">
+            <img
+              src="/assets/unlocked-revenue-panel.png"
+              alt="PodPup answer engine chat preview"
+            />
+          </div>
+        </article>
+      </section>
+
+      <section id="how-it-works" class="setup narrow-section">
+        <h2>Simple set up. No engineering required</h2>
+        <p class="subline">connect your podcast | your episodes are indexed | add to your site in mins</p>
+        <div class="steps">
+          <article>
+            <span class="step-icon link-icon"></span>
+            <p>Add your RSS feed - your entire catalogue is auto imported</p>
+          </article>
+          <div class="step-arrow">&rarr;</div>
+          <article>
+            <span class="step-icon file-icon"></span>
+            <p>PodPup will index and make your episodes searchable</p>
+          </article>
+          <div class="step-arrow">&rarr;</div>
+          <article>
+            <span class="step-icon embed-icon"></span>
+            <p>Embed a light widget and start driving more engagement</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="monetize narrow-section">
+        <h2>Built for how you monetize</h2>
+        <p class="section-lede">Turn every episode-new and old into an active revenue driver.</p>
+        <p class="muted-lede">
+          Most podcasts monetise the same way. The difference is how much of your
+          catalogue actually gets heard.
+        </p>
+        <div class="benefit-grid">
+          <article class="benefit benefit-pink">
+            <h3>Increase Revenue Per Listener</h3>
+            <p>Guide listeners to more of your content each session - driving deeper listening and more ad impressions.</p>
+          </article>
+          <article class="benefit benefit-gold">
+            <h3>Increase Sponsor Exposure</h3>
+            <p>Episodes do not die after week one. PodPup continuously resurfaces relevant content for sponsors.</p>
+          </article>
+          <article class="benefit benefit-cyan">
+            <h3>Benefit Longer From Affiliate Deals</h3>
+            <p>Content with a longer lifespan means revenue generation from affiliate deals goes on longer.</p>
+          </article>
+        </div>
+        <article class="member-card">
+          <h3>Convert Listeners Into Paying Members</h3>
+          <p>Let listeners interact with your content through AI - unlocking deeper engagement and premium experiences worth subscribing for.</p>
+        </article>
+      </section>
+
+      <section id="experience" class="experience narrow-section">
+        <h2>See What Listeners Experience</h2>
+        <a
+          class="video-frame"
+          href="https://www.dayone.careers/podpup-demo"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open the PodPup demo on the Day One Careers website in a new tab"
+        >
+          <div class="demo-engine">
+            <div class="demo-site-preview" aria-hidden="true">
+              <div class="demo-site-nav">
+                <strong><span>Day One</span> Careers</strong>
+                <nav>
+                  <span>Courses</span>
+                  <span>Services</span>
+                  <span>Amazon Resources</span>
+                  <span>Testimonials</span>
+                  <span>Blog</span>
+                  <span>Sign In/Sign Up</span>
+                </nav>
+              </div>
+              <div class="demo-site-body">
+                <div class="demo-site-copy">
+                  <span>Interactive Podcast Demo</span>
+                  <h3>PodPup Demo</h3>
+                  <p>Experience PodPup with the Day One Careers podcast already loaded. Ask the chatbot about interview advice, podcast episodes, and practical preparation guidance.</p>
+                  <b>The demo opens from the chatbot in the bottom-right corner of the page.</b>
+                </div>
+                <div class="demo-site-card">
+                  <span>Demo Ready</span>
+                  <strong>Talk to the podcast</strong>
+                  <p>Open the embedded PodPup assistant to explore podcast content conversationally.</p>
+                </div>
+                <div class="demo-chat-widget">
+                  <header>Day One Careers Podcast Answer Engine</header>
+                  <p>Hi! I am your answer engine. Ask me anything about the podcast content!</p>
+                  <b>Is there a podcast that will show me how to prepare step by step?</b>
+                  <p>The podcast discussed related points, including interview preparation and career history.</p>
+                  <div><span>Type your question...</span><strong>&rarr;</strong></div>
+                </div>
+              </div>
+              <span class="play-button" aria-hidden="true"></span>
+            </div>
+            <p class="demo-caption">This will open a PodPup client's website<br />in a new tab.</p>
+          </div>
+        </a>
+      </section>
+
+      <section class="listener-photo">
+        <h2>They ask. The right thing surfaces.</h2>
+        <img src="/assets/listeners-train.png" alt="Two podcast listeners using headphones and a laptop on a train" />
+      </section>
+
+      <section id="pricing" class="pricing narrow-section">
+        <h2>Pricing</h2>
+        <div class="pricing-grid">
+          {pricePlans.map((plan) => (
+            <article class={`price-card price-${plan.accent}`}>
+              {plan.badge && <div class="price-badge">{plan.badge}</div>}
+              <img src="/assets/podpup-logo.png" alt="" aria-hidden="true" />
+              <h3>{plan.name}</h3>
+              <p class="audience">{plan.audience}</p>
+              <div class="price">
+                {plan.price}
+                {plan.suffix && <span>{plan.suffix}</span>}
+              </div>
+              <ul>
+                {plan.features.map(([state, label]) => (
+                  <li class={state}>
+                    <span>{state === 'yes' ? '✓' : '×'}</span>
+                    {label}
+                  </li>
+                ))}
+              </ul>
+              <a href={appUrl} class="plan-button">Unlock Your Revenue</a>
+            </article>
+          ))}
+        </div>
+        <a class="button button-gold pricing-cta" href={appUrl}>Unlock Your Revenue</a>
+      </section>
+    </main>
+
+    <footer id="signin" class="site-footer">
+      <div>
+        <img src="/assets/podpup-logo.png" alt="PodPup" />
+        <p>Empowering podcasters to maximise the revenue opportunity of their entire catalogue.</p>
+      </div>
+      <nav>
+        <h2>Product</h2>
+        <a href="/#pricing">Features</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="/#how-it-works">How It Works</a>
+      </nav>
+      <nav>
+        <h2>Legal</h2>
+        <a href="/terms#privacy-policy">Privacy Policy</a>
+        <a href="/terms#terms-of-use">Terms</a>
+        <a href="/terms">Fulfillment Policy</a>
+      </nav>
+      <nav>
+        <h2>Company</h2>
+        <a href={appUrl}>Customer Support</a>
+        <div class="socials">
+          <a href={linkedinUrl} aria-label="LinkedIn">in</a>
+          <a href={appUrl} aria-label="X">X</a>
+        </div>
+      </nav>
+      <p class="legal-line">PodPup is a trading name of Ekco Global Ltd 7 Bell Yard, London, WC2A 2JR</p>
+    </footer>
+  </body>
+</html>

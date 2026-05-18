@@ -1,0 +1,111 @@
+---
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import '../styles/global.css';
+
+const appUrl = 'https://app.podpup.io';
+const linkedinUrl = 'https://www.linkedin.com/company/podpup/about/?viewAsMember=true';
+const legalText = readFileSync(join(process.cwd(), 'src/content/terms-page.txt'), 'utf-8')
+  .replace(/\u2028/g, '\n')
+  .replace(/\r/g, '');
+
+const lines = legalText
+  .split('\n')
+  .map((line) => line.trim())
+  .filter(Boolean);
+
+const isDocumentTitle = (line: string) => line.startsWith('PodPup');
+const isSectionHeading = (line: string) => /^\d+(\.\d+)?\)/.test(line);
+const slugify = (line: string) =>
+  line
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="PodPup terms of use and privacy policy."
+    />
+    <meta name="generator" content={Astro.generator} />
+    <title>Terms & Privacy | PodPup</title>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="logo-link" href="/" aria-label="PodPup home">
+        <img src="/assets/podpup-logo.png" alt="PodPup" />
+      </a>
+      <nav class="main-nav">
+        <a href="/#how-it-works">How It Works</a>
+        <a href="/#pricing">Pricing</a>
+        <a href={appUrl}>Sign In</a>
+      </nav>
+      <a class="button button-gold header-cta" href="/#pricing">Start FREE</a>
+    </header>
+
+    <main class="legal-page">
+      <section class="legal-hero">
+        <h1>Terms & Privacy</h1>
+        <p>PodPup legal terms, service rules, and privacy information.</p>
+      </section>
+
+      <section class="legal-content" aria-label="PodPup terms and privacy policy">
+        {lines.map((line) => {
+          if (isDocumentTitle(line)) {
+            const id = line.includes('Privacy') ? 'privacy-policy' : 'terms-of-use';
+            const className = line.includes('Terms of Use') ? 'legal-primary-title' : undefined;
+            return <h2 id={id} class={className}>{line}</h2>;
+          }
+
+          if (isSectionHeading(line)) {
+            return <h3 id={slugify(line)}>{line}</h3>;
+          }
+
+          if (line.startsWith('Effective Date:') || line.startsWith('Contracting Entity:') || line.startsWith('Scope:') || line.startsWith('Contact:') || line.startsWith('Controller/Provider:') || line.startsWith('Address:') || line.startsWith('General/Legal:') || line.startsWith('Privacy:') || line.startsWith('DMCA/UK Notice Contact:')) {
+            return <p class="legal-meta">{line}</p>;
+          }
+
+          if (line.startsWith('Quick Summary')) {
+            return <p class="legal-summary">{line}</p>;
+          }
+
+          return <p>{line}</p>;
+        })}
+      </section>
+    </main>
+
+    <footer id="signin" class="site-footer">
+      <div>
+        <img src="/assets/podpup-logo.png" alt="PodPup" />
+        <p>Empowering podcasters to maximise the revenue opportunity of their entire catalogue.</p>
+      </div>
+      <nav>
+        <h2>Product</h2>
+        <a href="/#pricing">Features</a>
+        <a href="/#pricing">Pricing</a>
+        <a href="/#how-it-works">How It Works</a>
+      </nav>
+      <nav>
+        <h2>Legal</h2>
+        <a href="/terms#privacy-policy">Privacy Policy</a>
+        <a href="/terms#terms-of-use">Terms</a>
+        <a href="/terms">Fulfillment Policy</a>
+      </nav>
+      <nav>
+        <h2>Company</h2>
+        <a href={appUrl}>Customer Support</a>
+        <div class="socials">
+          <a href={linkedinUrl} aria-label="LinkedIn">in</a>
+          <a href={appUrl} aria-label="X">X</a>
+        </div>
+      </nav>
+      <p class="legal-line">PodPup is a trading name of Ekco Global Ltd 7 Bell Yard, London, WC2A 2JR</p>
+    </footer>
+  </body>
+</html>

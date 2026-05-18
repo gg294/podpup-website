@@ -1,0 +1,174 @@
+PodPup – Terms of Use
+Effective Date: May, 2026 Contracting Entity: Ekco Global Ltd ("Ekco Global Ltd," "we," "us," "our").
+Quick Summary (not part of the contract): PodPup lets you build AI chatbots from your podcast content. You must own or have rights to whatever you submit. We may request proof of ownership or permission at any time. The service is provided "AS IS," without warranties. No refunds on paid plans; plans are monthly and you can cancel any time to stop future renewals. We cap and exclude our liability to the maximum extent permitted by law (with UK/EEA carve-outs where the law requires).
+
+1) Who May Use PodPup
+PodPup is intended for business and professional use. By using the Service, you represent that you: a) are at least 18; b) are using the Service in a business or professional capacity (not as a UK "consumer"); and c) have authority to bind your organization to these Terms.
+2) Your Account
+Keep your credentials secure and promptly notify us of any unauthorized use. You are responsible for actions taken through your account.
+3) Our Service
+PodPup is a SaaS platform that (i) processes podcast audio you supply (including via RSS), (ii) generates transcripts/summaries/embeddings, and (iii) powers AI chatbots and embeddable widgets. We may improve, update, or change features. Beta or experimental features may be enabled and are provided AS IS with reduced or no support.
+4) Subscriptions, Billing, and No-Refunds
+Plans & Usage. We offer Free, Starter, and Pro plans with quotas and metered usage; overages may incur fees per our pricing page.
+Term & Renewal. Paid plans are monthly and auto-renew unless you cancel before the next billing date.
+Cancellation. You can cancel at any time; your access continues through the current paid term and then stops. No refunds or credits, including for partial months, unused quotas, or downgrades. If required by law, we will honor any non-waivable statutory rights.
+Taxes. Fees are exclusive of taxes; you are responsible for applicable taxes.
+Payment Issues. We may suspend the Service for unpaid or disputed amounts.
+5) Your Content & License to Us
+You retain your rights in podcast audio, transcripts derived from your content, and related metadata you provide ("Your Content"). You grant Ekco Global Ltd a worldwide, non-exclusive, royalty-free license to host, copy, process, transcribe, analyze, transform, and otherwise use Your Content (and derivative outputs created by the Service) solely to provide and improve the Service, including safety, abuse prevention, analytics, quality assurance, debugging, backups, model evaluation, and feature development. You may revoke this license by deleting content or your account, subject to Section 12 (Data Retention).
+5.1 Ownership & Permissions (RSS Feeds)
+You must only submit, import, or connect RSS feeds and podcast content that you own or for which you hold explicit, written permission (license, assignment, or other documented authorization) from the producer(s)/owner(s) to process through the Service, including transcription, embedding, AI retrieval, and chatbot deployment. You must ensure such permission covers derivative processing (e.g., transcripts, summaries, embeddings) and redisplay via widgets and chatbots, including citations back to episodes.
+5.2 Verification & Audit Rights (Your Consent)
+By using the Service, you consent to our right, at any time and in our sole discretion, to request, collect, and review proof of ownership and/or explicit permission for any podcast, episode, or RSS feed you submit. Acceptable proof may include, without limitation: license agreements, assignment letters, email or ticket confirmations from rights holders, hosting-platform evidence of ownership, or other documentation we reasonably request. You agree to retain such documentation and provide it promptly upon our request. You also consent to our contacting hosting platforms, distributors, or identified rights holders to confirm rights and to our processing of the verification records for compliance and risk management.
+5.3 Consequences of Non-Compliance
+If we cannot verify ownership/permission to our reasonable satisfaction, or if you fail to provide timely documentation, we may suspend or terminate ingestion, processing, or your access to the Service (in whole or part), disable affected chatbots/widgets, delete disputed content, and/or notify relevant rights holders or platforms. Such actions may occur without liability to you and without refunds or credits. You remain responsible for any claims arising from Your Content.
+You represent and warrant that: a) you own or have all necessary rights to submit Your Content and to authorize our processing; b) Your Content and your use of the Service will not infringe IP or privacy rights, be unlawful, defamatory, or harmful, or violate platform or RSS host terms; and c) you will display any required notices to your end users and obtain all required consents.
+6) AI Outputs and Creator Responsibility
+The Service generates AI outputs that may be inaccurate, incomplete, or misleading ("AI Output"). You are solely responsible for reviewing AI Output and for any decisions or claims based on it. The Service does not provide professional advice (legal, medical, financial, etc.). Do not use AI Output in safety-critical scenarios.
+AI SPECIFIC DISCLAIMER: THE SERVICE AND ALL AI OUTPUTS ARE PROVIDED "AS IS" AND "AS AVAILABLE." AI SYSTEMS CAN PRODUCE ERRORS, OMISSIONS, OR "HALLUCINATIONS." YOU MUST REVIEW AND VERIFY ALL AI OUTPUT BEFORE RELYING ON IT OR PUBLISHING IT.
+7) Acceptable Use
+You agree not to (and not to help others to):
+violate laws or third-party rights (including copyright, privacy, publicity, defamation, export controls/sanctions);
+submit or process any podcast/RSS feed for which you lack ownership or explicit written permission under Section 5.1;
+attempt to re-identify individuals, process biometric identifiers, or process special categories of personal data without lawful basis;
+use the Service for spam, scams, deception, or to create or disseminate misinformation;
+probe or circumvent security, rate limits, or quotas; or
+reverse engineer or misuse the Service or underlying models.
+We may suspend or terminate accounts for suspected violations.
+8) Third-Party Services
+The Service integrates with vendors including OpenAI (model inference/embeddings), Deepinfra (transcription), and Stripe/Autumn.js (billing). Your use may be subject to their terms and privacy practices. We are not responsible for third-party services; they may change or become unavailable.
+9) Widgets and Embeds
+You may embed PodPup widgets subject to domain restrictions and security controls. You are responsible for deploying embeds in compliance with your site's policies, cookie/consent rules, and any regional signal requirements.
+10) Intellectual Property
+Other than Your Content, the Service (software, UI, documentation, templates, prompts/system messages) is owned by Ekco Global Ltd or its licensors. We grant you a limited, non-exclusive, non-transferable right to use the Service during your subscription.
+Feedback is voluntary. You grant us a perpetual, irrevocable, royalty-free license to use feedback without restriction.
+11) Copyright Complaints (DMCA/UK Notice)
+We respond to properly formed notices of alleged infringement and may terminate repeat infringers. Send notices to unhingedstudiohq@gmail.com with: (i) identification of the work and allegedly infringing material; (ii) contact info; (iii) a statement of good-faith belief; (iv) a statement under penalty of perjury of accuracy/authority; and (v) a physical or electronic signature. Counter-notices must meet statutory requirements.
+12) Data Retention and Deletion
+Audio files downloaded for processing are stored temporarily and removed after processing completes (plus a reasonable reliability buffer).
+Transcripts, summaries, embeddings, and conversation logs are retained to operate chatbots and for legitimate business purposes until you delete them, your account terminates, or we no longer need them.
+We maintain backups and operational logs for security and continuity for a limited period.
+When you delete content or your account, we will delete associated data within our standard timelines, except where retention is required by law, for dispute resolution, fraud prevention, or to enforce these Terms.
+13) Security
+We implement safeguards appropriate to the nature of the data processed (e.g., authentication, access controls, input sanitization, domain restrictions, session expiration, and XSS/CORS protections). No method of transmission or storage is completely secure.
+14) No Warranties
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. We do not warrant that the Service will be uninterrupted, error-free, or free of harmful components, or that AI Output will be accurate or reliable.
+15) Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, Ekco Global Ltd AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AND SUPPLIERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, GOODWILL, REPUTATION, DATA, OR BUSINESS INTERRUPTION, EVEN IF ADVISED OF THE POSSIBILITY. OUR AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SERVICE WILL NOT EXCEED THE LESSER OF (A) THE AMOUNTS YOU PAID TO US FOR THE SERVICE IN THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY OR (B) USD $100. If you use a free plan, our aggregate liability is USD $0.
+UK/EEA carve-outs: Nothing in these Terms excludes or limits liability for fraud, fraudulent misrepresentation, or death/personal injury caused by negligence, and nothing limits any liability that cannot be limited under applicable law. Loss exclusions and caps apply only to the extent permitted by law.
+16) Indemnification
+You will defend, indemnify, and hold harmless Ekco Global Ltd and its personnel from and against claims, losses, liabilities, damages, costs, and expenses (including reasonable legal fees) arising out of or relating to: (a) Your Content; (b) your use of the Service or AI Output; (c) your breach of these Terms or law; or (d) your embeds or interactions with end users.
+17) Changes and Availability
+We may modify the Service or these Terms. If changes are material, we will provide notice (e.g., in-app, email, or posting). Changes take effect on posting or as stated in the notice. If you do not agree, stop using the Service and cancel before the next renewal.
+18) Suspension/Termination
+We may suspend or terminate your access for any breach, risk to the Service, non-payment, or legal compliance (including failure to verify ownership/permission under Section 5). You may terminate at any time by canceling; Sections that by their nature should survive (including 5–8, 10–12, 14–21) will survive.
+19) Export and Sanctions
+You must comply with applicable export control and sanctions laws. You may not use the Service if you are, or are working for, a sanctioned person or in a restricted jurisdiction.
+20) Governing Law and Dispute Resolution
+If your billing address is in the US or Canada: These Terms are governed by the Federal Arbitration Act and the laws of Delaware, excluding conflict rules. Binding arbitration administered by AAA under its Commercial Rules. No class actions or class arbitrations. Either party may seek injunctive relief in a court of competent jurisdiction to protect IP or confidential information. Venue for any court proceedings is state or federal courts in Delaware, and you consent to personal jurisdiction there.
+If your billing address is in the UK or outside North America: These Terms are governed by the laws of England and Wales, and the courts of England and Wales have exclusive jurisdiction (subject to any non-waivable rights).
+Opt-out (US/Canada): You may opt out of arbitration within 30 days of first accepting these Terms by emailing unhingedstudiohq@gmail.com with subject "Arbitration Opt-Out."
+21) Miscellaneous
+These Terms are the entire agreement, superseding prior understandings. If any provision is unenforceable, the remainder stays in effect. You may not assign without our consent; we may assign to an affiliate or in connection with a merger, acquisition, or asset transfer. No waiver is implied by delay. Force majeure applies to events beyond reasonable control.
+Contact: Ekco Global Ltd, 85 Great Portland Street, London, GB, unhingedstudiohq@gmail.com.
+
+PodPup – Privacy Policy
+Effective Date: May, 2026 This Privacy Policy explains how Ekco Global Ltd ("Ekco Global Ltd," "we," "us") collects, uses, and shares information when you use PodPup (the Service), including the PodPup web app, APIs, and embeddable widgets.
+Scope: This Policy covers (i) account/admin users (our customers and their team members) and (ii) end users who interact with customer-deployed chatbots and widgets.
+
+1) Roles and Responsibilities
+Controller. We act as an independent controller for account information, billing, product analytics, and security logs.
+Processor/Service Provider. For Your Content (podcast audio, transcripts, embeddings) and your end-user chat logs, we act as your processor/service provider and process on your documented instructions under these Terms and, if applicable, a Data Processing Addendum (DPA). To request a DPA, contact unhingedstudiohq@gmail.com.
+
+2) Information We Collect
+Account and Billing:
+Email, name, organization, passwordless/OAuth identifiers, seat assignments
+Plan tier, usage and quota data, invoices, payment status (via Stripe/Autumn.js)
+Podcast Content Data:
+RSS feed URLs you provide and associated metadata
+Audio files temporarily downloaded and processed
+AI-generated transcripts, summaries, keywords; embeddings/vector representations; episode-level metadata and timestamps
+Ownership/Permission Verification Records:
+Copies of licenses, assignments, emails, confirmations from rights holders, hosting platform evidence, or other documentation you provide to prove ownership/authorization
+Our internal verification notes, timestamps, and correspondence (including contacts with platforms or rights holders solely for verification)
+End-User Interactions:
+Chat messages, conversation context, and citations
+Widget configuration, domain restrictions, welcome messages
+Technical/Usage Data:
+IP address, domain/referrer, browser user agent, device type
+Session tokens, auth events, security/abuse signals
+API usage logs, performance/error diagnostics
+Cookies and Similar Technologies:
+Essential cookies for authentication and security
+Optional analytics cookies (if enabled) for feature usage and reliability (we do not use third-party advertising cookies)
+We do not knowingly collect information from children under 13 or direct the Service to them.
+
+3) How We Use Information
+To Provide the Service: authenticate users; ingest and process podcast content; transcribe audio; generate embeddings and chat responses; display and host widgets; enforce quotas; and provide support.
+To Verify Ownership/Permissions: request, receive, and review verification records; contact hosting platforms or rights holders to confirm authorization; and determine eligibility for ingestion/processing.
+To Improve and Secure the Service: debug and monitor performance; prevent fraud/abuse; quality assurance; develop new features; run internal analytics and A/B tests.
+Compliance and Safety: comply with legal obligations; respond to lawful requests; enforce policies; detect misuse.
+Marketing (limited): send product and service communications (you may opt out). We do not sell personal information.
+Legal Bases (UK GDPR):
+Contract (to deliver the Service);
+Legitimate Interests (security, rights verification, product improvement, de-identified analytics, fraud prevention—balanced against your rights);
+Consent (where required, e.g., certain cookies/region-specific signals);
+Legal Obligation (to comply with applicable laws).
+
+4) Sharing and Disclosures
+Vendors/Sub-processors (acting on our behalf):
+OpenAI – inference/embeddings; vector storage
+Deepinfra – transcription
+Stripe / Autumn.js – payments and subscription management
+Other professional services (security, logging, email delivery) as needed
+Ownership/Permission Verification: We may disclose limited information to hosting platforms, distributors, or identified rights holders solely to verify ownership/permission or to notify them of suspected unauthorized use. We may also disclose information if required by law, in connection with a merger/acquisition, or to protect rights, safety, and the Service.
+We do not sell personal information and we do not share it for cross-context behavioral advertising.
+
+5) International Data Transfers
+We may transfer and process data in the United States and other countries where we and our vendors operate. For UK/EEA personal data, we rely on appropriate safeguards such as the EU Standard Contractual Clauses and the UK International Data Transfer Addendum/Agreement.
+
+6) Data Retention
+Audio files processed for transcription are retained temporarily and deleted after processing completes (plus a short reliability window).
+Transcripts, embeddings, and chat logs are retained for the life of your project/account to power chatbots, unless you delete them.
+Ownership/Permission Verification Records are retained for as long as your account/project remains active and for a reasonable period thereafter (e.g., up to 6 years, or longer if required by law or to resolve disputes).
+Backups and logs are retained for limited periods for security and continuity.
+We may preserve certain records where required by law, to resolve disputes, or enforce our agreements.
+
+7) Your Privacy Choices and Rights
+Account Admins (global):
+Access, correct, or delete account data in the app or by contacting unhingedstudiohq@gmail.com.
+Configure retention and delete podcasts, episodes, chatbots, and conversation history.
+Provide or update verification records on request.
+Manage marketing preferences.
+US State Privacy Rights (e.g., CA/VA/CO/CT/UT and others):
+Right to know/access, delete, correct, portability, and to opt out of certain processing (e.g., targeted advertising, sale, profiling where applicable).
+Submit requests via unhingedstudiohq@gmail.com. We will verify identity and respond within statutory timelines. You may appeal a denial by replying "Appeal" to our response; if unresolved, you may contact your state AG.
+UK Data Subject Rights:
+Rights of access, rectification, erasure, restriction, portability, and objection (including to processing based on legitimate interests).
+Submit requests via unhingedstudiohq@gmail.com. You may complain to the ICO if you are dissatisfied, but please contact us first.
+We will not discriminate against you for exercising your privacy rights. If you authorize an agent to act on your behalf, we will take steps to verify both you and your agent.
+
+8) Children's Privacy
+PodPup is not intended for children under 13. If your organization targets minors, you must configure appropriate notices/consents and comply with applicable laws. We will promptly delete children's data we learn about without proper authorization.
+
+9) Security
+We use administrative, technical, and physical safeguards appropriate to the data we process, including access controls, encryption in transit, input sanitization, and session security. No system is perfectly secure; please use strong credentials and restrict access to dashboards and API keys.
+
+10) AI Providers and Data Handling
+We send transcripts, prompts, and conversation snippets to AI vendors to generate responses and embeddings. Where vendor options allow, we configure settings to disallow training on your data for model improvement. However, vendors may retain limited logs to operate their services under their own terms. See their privacy notices for details.
+
+11) Cookies and Tracking
+We use essential cookies for authentication and security and may use first-party analytics. If we deploy region-specific consent banners, your preferences will be honored. You can control cookies via your browser.
+
+12) User Content, Publicity, and De-Identification
+We may de-identify data for statistical reporting, reliability analysis, and product improvement. We may list your organization name and logo on our website as a customer unless you opt out by emailing unhingedstudiohq@gmail.com.
+
+13) Third-Party Links
+The Service may link to third-party sites or widgets. Their privacy practices are not our responsibility; review their policies.
+
+14) Changes to This Policy
+We may update this Policy to reflect changes in our practices or the law. We will post the updated Policy with a new "Effective Date" and, where changes are material, provide additional notice.
+
+15) Contact Us
+Controller/Provider: Ekco Global Ltd Address: 7 Bell Yard, London  General/Legal: admins@ekco.global Privacy: admins@ekco.global
+DMCA/UK Notice Contact: admins@ekco.global
